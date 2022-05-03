@@ -1,0 +1,23 @@
+[tool.poetry]
+authors = ["Carl Moberg"]
+name = "pyang-json-schema-plugin"
+description = "a small pyang plugin to convert YANG to jsonschema"
+version = "0.2"
+license = "New-style BSD"
+keywords=[
+  'yang', 
+  'extraction', 
+  'jsonschema'
+  ]
+
+[tool.poetry.dependencies]
+python = '^3.7'
+pyang = '~2.5.3'
+jsonschema = '4.0.0'
+
+[build-system]
+requires = ['poetry-core~=1.0']
+build-backend = 'poetry.core.masonry.api'
+
+[tool.poetry.urls]
+"repo" = "https://github.com/fire-ant/pyang-json-schema-plugin"
