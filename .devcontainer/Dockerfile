@@ -28,6 +28,3 @@ RUN pipx ensurepath
 # install dependencies
 COPY pyproject.toml poetry.lock ./
 RUN poetry install --no-dev --no-root --no-interaction --no-ansi
-
-WORKDIR /jsonschema
-# copy and run program
